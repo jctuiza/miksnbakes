@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syne:wght@400..800&display=swap');
+
+* {
+  --bs-font-sans-serif: 'EB Garamond', sans-serif;
+  --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+:root {
+  --primary-color: #A35281;
+  --primary-color-dark: #843A67;
+  --primary-color-accent: #BF980D;
+  --primary-color-accent-2: #F4D35E;
+}
+
+.bg-danger,
+.btn-danger,
+.dropdown-menu.bg-danger,
+.offcanvas.bg-danger,
+footer.bg-danger {
+  background-color: var(--primary-color) !important;
+}
+
+.text-danger,
+.card-title.text-danger,
+h1.text-danger,
+h4.text-danger {
+  color: var(--primary-color) !important;
+}
+
+.text-danger-emphasis {
+  color: var(--primary-color-accent) !important;
+}
+
+.text-secondary-emphasis {
+  color: var(--primary-color-accent-2) !important;
+}
+
+.btn-outline-danger {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--primary-color) !important;
+  color: var(--bs-white) !important;
+}
+
+.btn-outline-warning {
+  color: var(--primary-color-accent) !important;
+  border-color: var(--primary-color-accent) !important;
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--primary-color-accent) !important;
+  color: var(--bs-white) !important;
+}
+
+.btn-danger:hover {
+  background-color: var(--primary-color-dark) !important;
+}
+
+a.text-danger:hover {
+  color: var(--primary-color-dark) !important;
+}
+
+.border-danger {
+  border-color: var(--primary-color) !important;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus {
+  background-color: var(--primary-color-dark);
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.notif {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--primary-color);
+  --bs-popover-header-bg: var(--primary-color);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
